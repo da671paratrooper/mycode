@@ -61,9 +61,7 @@ frames = [
 """
 ]
 
-while True:
-    for frame in frames:
-        clear()
-        print(frame)
-        time.sleep(0.5)
-
+for frame in frames:
+    clear()
+    print(frame)
+    time.sleep(0.5)
